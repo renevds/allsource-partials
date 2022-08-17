@@ -11,9 +11,15 @@
 {
     "ui/partials/buttons/primary_button": {
         "scope": "allsource.main",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/primary_button"
+    },
+    "ui/style/base": {
+        "scope": "",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "main/ui/style/base"
     },
     "$schema-version": "15.0.0"
 }
