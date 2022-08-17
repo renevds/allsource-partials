@@ -1,1 +1,0 @@
-export const dayTimestampDuration = 86400000;
