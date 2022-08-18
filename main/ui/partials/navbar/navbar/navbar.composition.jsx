@@ -1,9 +1,9 @@
 import React from 'react';
-import {Live} from "@main/ui.partials.navbar.live";
-import {NavbarLink} from "@main/ui.partials.navbar.navbarlink";
-import {PrimaryButton} from "@main/ui.partials.buttons.primary_button";
-import {Search} from "@main/ui.partials.navbar.search";
 import Navbar from "./navbar";
+import {NavbarLink} from "../navbarlink";
+import {Live} from "../live";
+import {Search} from "../search";
+import {PrimaryButton} from "../../buttons/primary_button";
 
 
 export const BasicNavbar = () => (

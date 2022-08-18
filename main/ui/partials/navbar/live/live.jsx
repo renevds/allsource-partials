@@ -1,7 +1,7 @@
 import React from 'react';
 
 //Style
-import '@main/ui.style.base';
+import '../../../style/base';
 import './live.css';
 
 export const Live = () => {

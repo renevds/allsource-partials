@@ -1,6 +1,7 @@
 import React from 'react';
 import {PrimaryButton} from './primary_button';
-import {DefaultContainer} from "@main/ui.composition.default_container";
+import {DefaultContainer} from "../../../composition/default_container";
+
 
 export const BasicPrimaryButton = () => (
   <DefaultContainer>
