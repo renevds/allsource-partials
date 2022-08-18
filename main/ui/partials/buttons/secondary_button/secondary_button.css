@@ -1,0 +1,16 @@
+.secondarybutton{
+    border-radius: 8px;
+    color: var(--color-background-dark);
+    background-color: var(--color-secondary);
+    border: none;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin-left: 16px;
+}

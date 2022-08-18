@@ -1,0 +1,19 @@
+---
+description: 'Shared navbar.'
+labels: []
+---
+
+## Navbar
+
+Shared Navbar that can be filled with several components.
+
+### Component usage
+```js
+<Navbar>
+    <NavbarLink href='https://google.com'>Hot Takes</NavbarLink>
+    <NavbarLink link='/'>Project Directory</NavbarLink>
+    <Live/>
+    <Search initial="Search Projects" onSearch={results => console.log(results)}/>
+    <PrimaryButton link='/' text="Connect Wallet"/>
+  </Navbar>
+```

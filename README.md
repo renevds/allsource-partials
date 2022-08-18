@@ -1,30 +1,18 @@
-# allsource global chart
+# Allsource component repo
 
-This NPM library contains charts used in several nodes.   
-All are written in react.
+Contains bit.dev components used troughout the Allsource projects.
 
-### Install
+### File structure
 
-```npm i degen-charts --save```
+All UI components are in main/ui
 
-### Usage
+- `partials` contains all shared react components like buttons
+- `style` contains components that are shared css files
 
-Following charts are available:
+### Usefull commands
 
-- SaleForPeriodChart
-- VolumeChart
-- FloorPriceChart
-- ProfitPerSaleChart
-- HoldingAmountDistributionChart
-- HoldingPeriodDistributionChart
-- HoldersChart
-- VolatilitySpeedometer
-- CompactFloorPriceChart
-- Speedometer
-
-Use like so (arguments depend on chart):
-```js
-import {CompactFloorPriceChart} from "degen-charts";
-//...
-<CompactFloorPriceChart contractAddress={addr}/>
-```
+- `bit link --rewire` to replace local imports with external
+- `bit tag` to set versions
+- `bit export` to export to bit.cloud
+- `bit add` to add component
+- `bit create react-component-js {name}` to create component
