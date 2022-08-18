@@ -15,6 +15,12 @@
         "mainFile": "index.js",
         "rootDir": "main/config/axios_instances"
     },
+    "extensions/react-custom": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "global/extensions/react-custom"
+    },
     "queries/chart_queries": {
         "scope": "allsource.global",
         "version": "0.0.1",
@@ -23,55 +29,55 @@
     },
     "ui/composition/default_container": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/composition/default_container"
     },
     "ui/partials/buttons/primary_button": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/primary_button"
     },
     "ui/partials/buttons/secondary_button": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/secondary_button"
     },
     "ui/partials/icons/higher_lower": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/icons/higher_lower"
     },
     "ui/partials/loader": {
         "scope": "allsource.global",
-        "version": "0.0.3",
+        "version": "0.0.5",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/loader"
     },
     "ui/partials/navbar/live": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/live"
     },
     "ui/partials/navbar/navbar": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbar"
     },
     "ui/partials/navbar/navbarlink": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbarlink"
     },
     "ui/partials/navbar/search": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/search"
     },

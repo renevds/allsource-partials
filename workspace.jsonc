@@ -59,7 +59,7 @@
    **/
   "teambit.workspace/variants": {
     "{ui/composition/**}, {ui/partials/**}": {
-      "teambit.react/react": {},
+      "allsource.global/extensions/react-custom": {},
       "teambit.pkg/pkg": {
         "packageManagerPublishArgs": [
           "--access public"
