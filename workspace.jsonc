@@ -39,6 +39,8 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "axios": "0.27.2",
+        "lzwcompress": "1.1.0",
         "react-router-dom": "6.3.0"
       },
       "peerDependencies": {
@@ -72,7 +74,7 @@
         }
       }
     },
-    "{ui/style/**}": {
+    "{ui/style/**}, {config/**}": {
       "teambit.harmony/node": {},
       "teambit.pkg/pkg": {
         "packageManagerPublishArgs": [
