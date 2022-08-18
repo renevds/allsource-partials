@@ -1,6 +1,7 @@
 import React from 'react';
 import NavbarLink from "./navbarLink";
-import {DefaultContainer} from "@allsource/main.ui.composition.default_container";
+import {DefaultContainer} from "@main/ui.composition.default_container";
+
 
 
 

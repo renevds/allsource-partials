@@ -1,8 +1,8 @@
 import React from 'react';
-import {Live} from "@allsource/main.ui.partials.navbar.live";
-import {NavbarLink} from "@allsource/main.ui.partials.navbar.navbarlink";
-import {PrimaryButton} from "@allsource/main.ui.partials.buttons.primary_button";
-import {Search} from "@allsource/main.ui.partials.navbar.search";
+import {Live} from "@main/ui.partials.navbar.live";
+import {NavbarLink} from "@main/ui.partials.navbar.navbarlink";
+import {PrimaryButton} from "@main/ui.partials.buttons.primary_button";
+import {Search} from "@main/ui.partials.navbar.search";
 import Navbar from "./navbar";
 
 

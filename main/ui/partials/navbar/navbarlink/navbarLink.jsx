@@ -1,7 +1,7 @@
 import React from 'react';
 
 //Style
-import '@allsource/main.ui.style.base';
+import '@main/ui.style.base';
 import './navbarLink.css'
 
 //Components
