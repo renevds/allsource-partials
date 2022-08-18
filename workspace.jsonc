@@ -10,7 +10,7 @@
     /**
      * the name of the component workspace. used for development purposes.
      **/
-    "name": "allsource-dev",
+    "name": "allsource_dev",
     /**
      * set the icon to be shown on the Bit server.
      **/
@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "allsource.main"
+    "defaultScope": "allsource.global"
   },
   /**
    * main configuration for component dependency resolution.
@@ -39,7 +39,6 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@allsource/main.ui.style.base": "0.0.6",
         "react-router-dom": "6.3.0"
       },
       "peerDependencies": {
@@ -64,7 +63,7 @@
           "--access public"
         ],
         "packageJson": {
-          "name": "@{scope}/{name}",
+          "name": "@allsource/{name}",
           "private": false,
           "publishConfig": {
             "scope": "@allsource",
@@ -80,7 +79,7 @@
           "--access public"
         ],
         "packageJson": {
-          "name": "@{scope}/{name}",
+          "name": "@allsource/{name}",
           "private": false,
           "publishConfig": {
             "scope": "@allsource",

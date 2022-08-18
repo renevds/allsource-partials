@@ -10,50 +10,50 @@
 
 {
     "ui/composition/default_container": {
-        "scope": "allsource.main",
-        "version": "0.0.3",
+        "scope": "allsource.global",
+        "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "main/ui/composition/default_container"
     },
     "ui/partials/buttons/primary_button": {
-        "scope": "allsource.main",
-        "version": "0.0.11",
+        "scope": "allsource.global",
+        "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/primary_button"
     },
     "ui/partials/buttons/secondary_button": {
-        "scope": "allsource.main",
-        "version": "0.0.9",
+        "scope": "allsource.global",
+        "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/secondary_button"
     },
     "ui/partials/navbar/live": {
-        "scope": "allsource.main",
-        "version": "0.0.6",
-        "mainFile": "live.jsx",
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/live"
     },
     "ui/partials/navbar/navbar": {
-        "scope": "allsource.main",
-        "version": "0.0.9",
+        "scope": "allsource.global",
+        "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbar"
     },
     "ui/partials/navbar/navbarlink": {
-        "scope": "allsource.main",
-        "version": "0.0.8",
+        "scope": "allsource.global",
+        "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbarlink"
     },
     "ui/partials/navbar/search": {
-        "scope": "allsource.main",
-        "version": "0.0.7",
+        "scope": "allsource.global",
+        "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/search"
     },
     "ui/style/base": {
-        "scope": "allsource.main",
-        "version": "0.0.7",
+        "scope": "allsource.global",
+        "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "main/ui/style/base"
     },

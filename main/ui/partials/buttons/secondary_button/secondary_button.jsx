@@ -1,8 +1,8 @@
 import React from 'react';
 
 //Style
+import '@allsource/ui.style.base'
 import './secondary_button.css'
-import '../../../style/base'
 
 export const SecondaryButton = ({children, onClick}) => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 
 //Style
+import '@allsource/ui.style.base'
 import './primary_button.css'
-import '../../../style/base'
 
 export const PrimaryButton = ({children, onClick}) => {
   return (
