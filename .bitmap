@@ -9,6 +9,18 @@
  */
 
 {
+    "config/axios_instances": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "main/config/axios_instances"
+    },
+    "queries/chart_queries": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "main/queries/chart_queries"
+    },
     "ui/composition/default_container": {
         "scope": "allsource.global",
         "version": "0.0.1",
@@ -26,6 +38,12 @@
         "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/secondary_button"
+    },
+    "ui/partials/loader": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "loader.jsx",
+        "rootDir": "main/ui/partials/loader"
     },
     "ui/partials/navbar/live": {
         "scope": "allsource.global",
