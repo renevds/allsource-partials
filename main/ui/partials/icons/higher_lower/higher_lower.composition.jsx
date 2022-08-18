@@ -1,10 +1,12 @@
 import React from 'react';
+
+import {HigherLower} from "./higher_lower";
 import {DefaultContainer} from "@allsource/ui.composition.default_container";
-import {Loader} from "./loader";
 
 
-export const BasicPrimaryButton = () => (
+export const BasicHigherLower = () => (
   <DefaultContainer>
-    <Loader/>
+    <HigherLower value={-50}/>
+    <HigherLower value={50}/>
   </DefaultContainer>
 );

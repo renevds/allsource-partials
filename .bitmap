@@ -29,7 +29,7 @@
     },
     "ui/partials/buttons/primary_button": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/primary_button"
     },
@@ -39,10 +39,16 @@
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/secondary_button"
     },
+    "ui/partials/icons/higher_lower": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "main/ui/partials/icons/higher_lower"
+    },
     "ui/partials/loader": {
         "scope": "allsource.global",
-        "version": "0.0.2",
-        "mainFile": "loader.jsx",
+        "version": "0.0.3",
+        "mainFile": "index.js",
         "rootDir": "main/ui/partials/loader"
     },
     "ui/partials/navbar/live": {
@@ -53,7 +59,7 @@
     },
     "ui/partials/navbar/navbar": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbar"
     },

@@ -3,7 +3,7 @@ import React from "react";
 //Style
 import "./loader.css";
 
-const Loader = ({fullScreen = false}) => {
+export const Loader = ({fullScreen = false}) => {
   return (
     <div style={fullScreen ? {
       backgroundColor: "#322f36",
@@ -15,5 +15,3 @@ const Loader = ({fullScreen = false}) => {
     </div>
   );
 };
-
-export default Loader;
