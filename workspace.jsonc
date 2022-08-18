@@ -56,6 +56,37 @@
    * see https://bit.dev/docs/workspace/variants for more info.
    **/
   "teambit.workspace/variants": {
-
+        "{ui/composition/**}, {ui/partials/**}": {
+            "teambit.react/react": {},
+            "teambit.pkg/pkg": {
+                "packageManagerPublishArgs": [
+                    "--access public"
+                ],
+                "packageJson": {
+                  "name": "@{scope}/{name}",
+                  "private": false,
+                  "publishConfig": {
+                    "scope": "@allsource",
+                    "registry": "https://registry.npmjs.org/"
+                  }
+                }
+            }
+        },
+        "{ui/style/**}": {
+            "teambit.harmony/node": {},
+            "teambit.pkg/pkg": {
+                "packageManagerPublishArgs": [
+                    "--access public"
+                ],
+                "packageJson": {
+                  "name": "@{scope}/{name}",
+                  "private": false,
+                  "publishConfig": {
+                    "scope": "@allsource",
+                    "registry": "https://registry.npmjs.org/"
+                  }
+                }
+            }
+        }
   }
 }

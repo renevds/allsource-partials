@@ -1,6 +1,7 @@
 import React from 'react';
 
 //Style
+import '@allsource/main.ui.style.base';
 import './navbar.css'
 
 export const Navbar = ({children}) => {
