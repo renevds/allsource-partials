@@ -1,9 +1,9 @@
 import React from 'react';
-import {SecondaryButton} from './secondary_button';
+import {Live} from "./live";
 import {DefaultContainer} from "@allsource/main.ui.composition.default_container";
 
-export const BasisSecondaryButton = () => (
+export const BasicLive = () => (
   <DefaultContainer>
-  <SecondaryButton>Button</SecondaryButton>
+    <Live/>
   </DefaultContainer>
 );

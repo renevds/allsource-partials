@@ -1,9 +1,12 @@
 import React from 'react';
-import {SecondaryButton} from './secondary_button';
+import NavbarLink from "./navbarLink";
 import {DefaultContainer} from "@allsource/main.ui.composition.default_container";
 
-export const BasisSecondaryButton = () => (
+
+
+export const BasicNavbarLink = () => (
   <DefaultContainer>
-  <SecondaryButton>Button</SecondaryButton>
+    <NavbarLink onClick={() => console.log("test")}>Test</NavbarLink>
   </DefaultContainer>
 );
+

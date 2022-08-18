@@ -11,8 +11,8 @@ All UI components are in main/ui
 
 ### Usefull commands
 
-- `npm link --rewire` to replace local imports with external
-- `npm tag` to set versions
-- `npm export` to export to bit.cloud
-- `npm add` to add component
-- `npm create react-component-js {name}` to create component
+- `bit link --rewire` to replace local imports with external
+- `bit tag` to set versions
+- `bit export` to export to bit.cloud
+- `bit add` to add component
+- `bit create react-component-js {name}` to create component
