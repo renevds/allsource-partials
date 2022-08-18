@@ -11,13 +11,19 @@
 {
     "ui/partials/buttons/primary_button": {
         "scope": "allsource.main",
-        "version": "0.0.2",
+        "version": "0.0.6",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/primary_button"
     },
+    "ui/partials/buttons/secondary_button": {
+        "scope": "allsource.main",
+        "version": "0.0.3",
+        "mainFile": "index.js",
+        "rootDir": "main/ui/partials/buttons/secondary_button"
+    },
     "ui/style/base": {
-        "scope": "",
-        "version": "0.0.1",
+        "scope": "allsource.main",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "main/ui/style/base"
     },

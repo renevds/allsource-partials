@@ -10,7 +10,7 @@
     /**
      * the name of the component workspace. used for development purposes.
      **/
-    "name": "my-workspace-name",
+    "name": "allsource-dev",
     /**
      * set the icon to be shown on the Bit server.
      **/
@@ -39,6 +39,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@allsource/main.ui.style.base": "0.0.1"
       },
       "peerDependencies": {
         "react": "18.2.0",

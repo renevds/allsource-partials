@@ -1,6 +1,8 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -26,8 +28,8 @@ a:visited, a h4 {
     color: var(--color-text);
 }
 
-.app{
-    background-color:  var(--color-background-dark);
+.app {
+    background-color: var(--color-background-dark);
 }
 
 .app__body {
@@ -37,12 +39,12 @@ a:visited, a h4 {
 /* Global variables */
 html {
     --color-text: white;
-    --color-background-dark: #26232b;
-    --color-background-dark-transp10: #26232b90;
-    --color-background-light: #322f36;
-    --color-background-light-transp10: #322f3690;
-    --color-primary: #8675f0;
-    --color-secondary: #09eeb7;
+    --color-background-dark: #242127;
+    --color-background-dark-transp10: #24212790;
+    --color-background-light: #322f37;
+    --color-background-light-transp10: #322f3790;
+    --color-primary: #9452ff;
+    --color-secondary: #56f5b8;
 }
 
 /* Works on Firefox */
@@ -68,7 +70,7 @@ html {
     border: 3px solid #D9D9D9;
 }
 
-h1{
+h1 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;

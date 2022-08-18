@@ -2,9 +2,10 @@ import React from 'react';
 
 //Style
 import './primary_button.css'
+import '@allsource/main.ui.style.base'
 
-export const PrimaryButton = ({text, onClick}) => {
+export const PrimaryButton = ({children, onClick}) => {
   return (
-    <button onClick={onClick} className="primarybutton">{text}</button>
+    <button onClick={onClick} className="primarybutton">{children}</button>
   )
 };
