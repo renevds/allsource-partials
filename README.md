@@ -1,13 +1,18 @@
 # Allsource component repo
 
-Contains bit.dev components used troughout the Allsource projects.
+Contains bit.dev components used throughout the Allsource frontend nodes.
 
 ### File structure
-
-All UI components are in main/ui
-
+Under `main`:
 - `partials` contains all shared react components like buttons
 - `style` contains components that are shared css files
+- `config` contains shared configs like axios configs
+
+`global` contains the react bit config
+
+### Local development
+- `bit link --target ../PATH/TO/PROJECT` replaces node modules in target with sim links to components here
+- `bit watch` automatically compiles your components so you get live updates in your target project
 
 ### Usefull commands
 
