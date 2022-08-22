@@ -41,6 +41,7 @@
       "dependencies": {
         "axios": "0.27.2",
         "lzwcompress": "1.1.0",
+        "moment": "2.29.4",
         "react-router-dom": "6.3.0"
       },
       "peerDependencies": {
@@ -74,7 +75,7 @@
         }
       }
     },
-    "{ui/style/**}, {config/**}, {queries/**}": {
+    "{ui/style/**}, {config/**}, {queries/**}, {utils/**}": {
       "teambit.harmony/node": {},
       "teambit.pkg/pkg": {
         "packageManagerPublishArgs": [

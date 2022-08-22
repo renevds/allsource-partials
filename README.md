@@ -39,9 +39,11 @@ Under `main`:
 (you will need to be logged in to an npm account with access to the organisation)
 - `bit export` uploads npm components to the bit repo at [bit.cloud/allsource](https://bit.cloud/allsource).
 
-### Adding/Creating components
+### Adding components
 - `bit add {path} -i {name}` to add component at folder   
-ex: `bit add main/ui/partials/navbar/navbar -I ui/partials/navbar/navbar`
+ex: `bit add main/ui/partials/navbar/navbar -I ui/partials/navbar/navbar`   
+to add folder `main/ui/partials/navbar/navbar` as component `ui/partials/navbar/navbar`   
+ex: `bit add .\main\utils\* -n main/utils` to all folders in `main/utils/...` as component `main/utils/{component}`
 - `bit rename {old} {new}` to rename components
 
 ### Files in a component

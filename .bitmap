@@ -87,5 +87,53 @@
         "mainFile": "index.js",
         "rootDir": "main/ui/style/base"
     },
+    "utils/auth_user": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "auth_user.js",
+        "rootDir": "main/utils/auth_user"
+    },
+    "utils/count_down_timer": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "count_down_timer.js",
+        "rootDir": "main/utils/count_down_timer"
+    },
+    "utils/date_converter": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "date_converter.js",
+        "rootDir": "main/utils/date_converter"
+    },
+    "utils/dnd_utils": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "dnd_utils.js",
+        "rootDir": "main/utils/dnd_utils"
+    },
+    "utils/handle_links": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "handle_links.js",
+        "rootDir": "main/utils/handle_links"
+    },
+    "utils/juice_utils": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "juice_utils.js",
+        "rootDir": "main/utils/juice_utils"
+    },
+    "utils/node_redirect_utils": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "node_redirect_utils.js",
+        "rootDir": "main/utils/node_redirect_utils"
+    },
+    "utils/text_format": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "text_format.js",
+        "rootDir": "main/utils/text_format"
+    },
     "$schema-version": "15.0.0"
 }
