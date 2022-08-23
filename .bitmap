@@ -11,127 +11,127 @@
 {
     "config/axios_instances": {
         "scope": "allsource.global",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.js",
         "rootDir": "main/config/axios_instances"
     },
     "extensions/react-custom": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "global/extensions/react-custom"
     },
     "queries/chart_queries": {
         "scope": "allsource.global",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.js",
         "rootDir": "main/queries/chart_queries"
     },
     "ui/composition/default_container": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.5",
         "mainFile": "index.js",
         "rootDir": "main/ui/composition/default_container"
     },
     "ui/partials/buttons/primary_button": {
         "scope": "allsource.global",
-        "version": "0.0.3",
+        "version": "0.0.6",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/primary_button"
     },
     "ui/partials/buttons/secondary_button": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.5",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/buttons/secondary_button"
     },
     "ui/partials/icons/higher_lower": {
         "scope": "allsource.global",
-        "version": "0.0.3",
+        "version": "0.0.6",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/icons/higher_lower"
     },
     "ui/partials/loader": {
         "scope": "allsource.global",
-        "version": "0.0.5",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/loader"
     },
     "ui/partials/navbar/live": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.5",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/live"
     },
     "ui/partials/navbar/navbar": {
         "scope": "allsource.global",
-        "version": "0.0.3",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbar"
     },
     "ui/partials/navbar/navbarlink": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.5",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbarlink"
     },
     "ui/partials/navbar/search": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.7",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/search"
     },
     "ui/style/base": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "main/ui/style/base"
     },
     "utils/auth_user": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "auth_user.js",
         "rootDir": "main/utils/auth_user"
     },
     "utils/count_down_timer": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "count_down_timer.js",
         "rootDir": "main/utils/count_down_timer"
     },
     "utils/date_converter": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "date_converter.js",
         "rootDir": "main/utils/date_converter"
     },
     "utils/dnd_utils": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "dnd_utils.js",
         "rootDir": "main/utils/dnd_utils"
     },
     "utils/handle_links": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "handle_links.js",
         "rootDir": "main/utils/handle_links"
     },
     "utils/juice_utils": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "juice_utils.js",
         "rootDir": "main/utils/juice_utils"
     },
     "utils/node_redirect_utils": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "node_redirect_utils.js",
         "rootDir": "main/utils/node_redirect_utils"
     },
     "utils/text_format": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "text_format.js",
         "rootDir": "main/utils/text_format"
     },

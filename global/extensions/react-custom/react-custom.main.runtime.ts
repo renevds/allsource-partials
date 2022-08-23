@@ -76,13 +76,9 @@ export class ReactCustomMain {
        * Uncomment types to include version 17.0.3 of the types package
        */
       react.overrideDependencies({
-        dependencies: {
-          "react": "18.2.0",
-          "react-dom": "18.2.0"
-        },
         peerDependencies: {
-          "react": "18.2.0",
-          "react-dom": "18.2.0"
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0"
         }
       })
     ]);
