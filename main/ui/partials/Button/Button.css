@@ -1,0 +1,121 @@
+.normal {
+  background-color: var(--color-background-dark);
+  border-radius: 8px;
+  color: var(--color-text);
+  border: none;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.button__title,
+.button__title__only {
+  padding: 2px;
+}
+
+.filters {
+  background-color: #424049;
+  color: #86858a;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active__filter {
+  background-color: #7230de;
+  color: var(--color-text);
+}
+
+.submit {
+  background-color: #59efbc;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.subscribe {
+  background: linear-gradient(104.8deg, #7230dc 11.35%, #57f3b7 114.81%);
+  color: var(--color-text);
+  border-radius: 12px;
+  border: none;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: medium;
+  text-align: center;
+  font-weight: 700;
+  width: 102px;
+  height: 36px;
+}
+
+.hot__takes__button__icon,
+.hot__takes__button__icon__filled {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-secondary);
+  border-radius: 8px;
+  background-color: transparent;
+  color: var(--color-secondary);
+  font-size: x-small;
+  font-weight: 600;
+  cursor: pointer;
+  /* width: 80px; */
+  height: 34px;
+}
+
+.hot__takes__button__icon__filled {
+  background-color: var(--color-secondary);
+  color: var(--color-background-dark);
+  display: flex;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .button__title {
+    display: none;
+  }
+}
+
+.primarybutton{
+  border-radius: 8px;
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 40px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin-left: 16px;
+}
+
+.secondarybutton{
+  border-radius: 8px;
+  color: var(--color-background-dark);
+  background-color: var(--color-secondary);
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 40px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin-left: 16px;
+}

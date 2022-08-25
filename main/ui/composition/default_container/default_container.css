@@ -9,3 +9,7 @@
     height: 100%;
     border-radius: 8px;
 }
+
+.defaultcontainer__light{
+    background-color: var(--color-background-light);
+}

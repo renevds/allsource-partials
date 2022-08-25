@@ -33,17 +33,33 @@
         "mainFile": "index.js",
         "rootDir": "main/ui/composition/default_container"
     },
+    "ui/partials/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.js",
+        "rootDir": "main/ui/partials/button"
+    },
     "ui/partials/buttons/primary_button": {
         "scope": "allsource.global",
         "version": "0.0.6",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/buttons/primary_button"
+        "rootDir": "main/ui/partials/buttons/primary_button",
+        "config": {
+            "teambit.component/deprecation": {
+                "deprecate": true
+            }
+        }
     },
     "ui/partials/buttons/secondary_button": {
         "scope": "allsource.global",
         "version": "0.0.5",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/buttons/secondary_button"
+        "rootDir": "main/ui/partials/buttons/secondary_button",
+        "config": {
+            "teambit.component/deprecation": {
+                "deprecate": true
+            }
+        }
     },
     "ui/partials/icons/higher_lower": {
         "scope": "allsource.global",
@@ -59,13 +75,13 @@
     },
     "ui/partials/navbar/live": {
         "scope": "allsource.global",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/live"
     },
     "ui/partials/navbar/navbar": {
         "scope": "allsource.global",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbar"
     },
@@ -77,7 +93,7 @@
     },
     "ui/partials/navbar/search": {
         "scope": "allsource.global",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/search"
     },

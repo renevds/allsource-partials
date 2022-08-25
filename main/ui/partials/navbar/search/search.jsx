@@ -10,7 +10,7 @@ import SearchImage from './search.svg'
 //Hooks
 import {useState} from "react";
 
-export const Search = ({initial}) => {
+export const Search = ({initial, onSearch}) => {
 
   const [value, setValue] = useState("");
 
