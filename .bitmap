@@ -15,6 +15,12 @@
         "mainFile": "index.js",
         "rootDir": "main/config/axios_instances"
     },
+    "context/user": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "main/context/user"
+    },
     "extensions/react-custom": {
         "scope": "allsource.global",
         "version": "0.0.4",
@@ -29,65 +35,49 @@
     },
     "ui/composition/default_container": {
         "scope": "allsource.global",
-        "version": "0.0.5",
+        "version": "0.0.7",
         "mainFile": "index.js",
         "rootDir": "main/ui/composition/default_container"
     },
     "ui/partials/button": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.js",
-        "rootDir": "main/ui/partials/button"
-    },
-    "ui/partials/buttons/primary_button": {
-        "scope": "allsource.global",
-        "version": "0.0.6",
-        "mainFile": "index.js",
-        "rootDir": "main/ui/partials/buttons/primary_button",
-        "config": {
-            "teambit.component/deprecation": {
-                "deprecate": true
-            }
-        }
-    },
-    "ui/partials/buttons/secondary_button": {
         "scope": "allsource.global",
         "version": "0.0.5",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/buttons/secondary_button",
-        "config": {
-            "teambit.component/deprecation": {
-                "deprecate": true
-            }
-        }
+        "rootDir": "main/ui/partials/button"
+    },
+    "ui/partials/divider": {
+        "scope": "allsource.global",
+        "version": "0.0.4",
+        "mainFile": "index.js",
+        "rootDir": "main/ui/partials/divider"
     },
     "ui/partials/icons/higher_lower": {
         "scope": "allsource.global",
-        "version": "0.0.6",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/icons/higher_lower"
     },
     "ui/partials/loader": {
         "scope": "allsource.global",
-        "version": "0.0.8",
+        "version": "0.0.10",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/loader"
     },
     "ui/partials/navbar/live": {
         "scope": "allsource.global",
-        "version": "0.0.6",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/live"
     },
     "ui/partials/navbar/navbar": {
         "scope": "allsource.global",
-        "version": "0.0.9",
+        "version": "0.0.11",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbar"
     },
     "ui/partials/navbar/navbarlink": {
         "scope": "allsource.global",
-        "version": "0.0.5",
+        "version": "0.0.7",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/navbarlink"
     },

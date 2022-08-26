@@ -1,10 +1,10 @@
 import React from 'react';
-import {SecondaryButton} from './secondary_button';
 import {DefaultContainer} from "@allsource/ui.composition.default_container";
+import {Divider} from "./divider";
 
 
-export const BasisSecondaryButton = () => (
+export const SimpleDivider = () => (
   <DefaultContainer>
-  <SecondaryButton>Button</SecondaryButton>
+    <Divider/>
   </DefaultContainer>
 );
