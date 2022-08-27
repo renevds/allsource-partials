@@ -1,10 +1,10 @@
-import {profileFetch} from "@allsource/config.axios_instances";
+import {mainFetch} from "@allsource/config.axios_instances";
 
 export function authUser() {
     return new Promise(async (resolve, reject) => {
         try {
             localStorage.setItem('isAuthing', 'true')
-            const {msg, redir,refPage} = await profileFetch(`/auth${window.location.search}&isReact=true`);
+            const {msg, redir,refPage} = await mainFetch(`/auth${window.location.search}&isReact=true`);
 
             if (msg === 'done') {
                 console.log('its done')

@@ -11,13 +11,13 @@
 {
     "config/axios_instances": {
         "scope": "allsource.global",
-        "version": "0.0.5",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "main/config/axios_instances"
     },
     "context/user": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "main/context/user"
     },
@@ -29,7 +29,7 @@
     },
     "queries/chart_queries": {
         "scope": "allsource.global",
-        "version": "0.0.5",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "main/queries/chart_queries"
     },
@@ -95,7 +95,7 @@
     },
     "utils/auth_user": {
         "scope": "allsource.global",
-        "version": "0.0.3",
+        "version": "0.0.6",
         "mainFile": "auth_user.js",
         "rootDir": "main/utils/auth_user"
     },
@@ -125,13 +125,13 @@
     },
     "utils/juice_utils": {
         "scope": "allsource.global",
-        "version": "0.0.3",
+        "version": "0.0.6",
         "mainFile": "juice_utils.js",
         "rootDir": "main/utils/juice_utils"
     },
     "utils/node_redirect_utils": {
         "scope": "allsource.global",
-        "version": "0.0.3",
+        "version": "0.0.6",
         "mainFile": "node_redirect_utils.js",
         "rootDir": "main/utils/node_redirect_utils"
     },
