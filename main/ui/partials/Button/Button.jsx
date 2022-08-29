@@ -1,6 +1,7 @@
 import React from 'react';
 
 //Style
+import '@allsource/ui.style.base';
 import "./button.css";
 
 export const Button = (props) => {

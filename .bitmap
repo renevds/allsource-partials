@@ -17,7 +17,7 @@
     },
     "context/user": {
         "scope": "allsource.global",
-        "version": "0.0.4",
+        "version": "0.0.7",
         "mainFile": "index.js",
         "rootDir": "main/context/user"
     },
@@ -41,7 +41,7 @@
     },
     "ui/partials/button": {
         "scope": "allsource.global",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/button"
     },
@@ -86,6 +86,12 @@
         "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "main/ui/partials/navbar/search"
+    },
+    "ui/partials/text_loader": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "index.js",
+        "rootDir": "main/ui/partials/text_loader"
     },
     "ui/style/base": {
         "scope": "allsource.global",

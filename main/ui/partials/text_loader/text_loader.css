@@ -1,0 +1,48 @@
+.text__loader {
+  margin: 0 auto;
+  position: relative;
+  top: -5px;
+}
+.text__loader:before {
+  content: "";
+  animation: load 5s linear infinite;
+}
+.text__loader:before {
+  content: "...";
+  font-size: 30px;
+}
+@keyframes load {
+  0% {
+    content: "";
+  }
+  10% {
+    content: ".";
+  }
+  20% {
+    content: "..";
+  }
+  30% {
+    content: "...";
+  }
+  40% {
+    content: "";
+  }
+  50% {
+    content: ".";
+  }
+  60% {
+    content: "..";
+  }
+  70% {
+    content: "...";
+  }
+  80% {
+    content: "";
+  }
+  85% {
+    content: ".";
+  }
+  90% {
+    content: "..";
+  }
+}

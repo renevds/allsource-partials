@@ -59,7 +59,7 @@
    * see https://bit.dev/docs/workspace/variants for more info.
    **/
   "teambit.workspace/variants": {
-    "{ui/composition/**}, {ui/partials/**}": {
+    "{ui/composition/**}, {ui/partials/**}, {context/**}": {
       "allsource.global/extensions/react-custom": {},
       "teambit.pkg/pkg": {
         "packageManagerPublishArgs": [
@@ -75,7 +75,7 @@
         }
       }
     },
-    "{ui/style/**}, {config/**}, {queries/**}, {utils/**}, {context/**}": {
+    "{ui/style/**}, {config/**}, {queries/**}, {utils/**}": {
       "teambit.harmony/node": {},
       "teambit.pkg/pkg": {
         "packageManagerPublishArgs": [
