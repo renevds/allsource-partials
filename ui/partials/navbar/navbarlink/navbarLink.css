@@ -1,0 +1,9 @@
+.navbarlink__a{
+    color: var(--color-text);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbarlink__a:hover{
+    color: gray;
+}

@@ -11,141 +11,219 @@
 {
     "config/axios_instances": {
         "scope": "allsource.global",
-        "version": "0.0.8",
+        "version": "0.0.11",
         "mainFile": "index.js",
-        "rootDir": "main/config/axios_instances"
+        "rootDir": "config/axios_instances"
+    },
+    "config/device_sizes": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "config/device_sizes"
+    },
+    "context/projects": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "context/projects"
     },
     "context/user": {
         "scope": "allsource.global",
-        "version": "0.0.7",
+        "version": "0.0.9",
         "mainFile": "index.js",
-        "rootDir": "main/context/user"
+        "rootDir": "context/user"
     },
     "extensions/react-custom": {
         "scope": "allsource.global",
         "version": "0.0.4",
         "mainFile": "index.ts",
-        "rootDir": "global/extensions/react-custom"
+        "rootDir": "extensions/react-custom"
+    },
+    "queries/analytics_queries": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "index.js",
+        "rootDir": "queries/analytics_queries"
     },
     "queries/chart_queries": {
         "scope": "allsource.global",
-        "version": "0.0.8",
+        "version": "0.0.10",
         "mainFile": "index.js",
-        "rootDir": "main/queries/chart_queries"
+        "rootDir": "queries/chart_queries"
+    },
+    "queries/opensea_queries": {
+        "scope": "allsource.global",
+        "version": "0.0.3",
+        "mainFile": "index.js",
+        "rootDir": "queries/opensea_queries"
+    },
+    "queries/project_queries": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "index.js",
+        "rootDir": "queries/project_queries"
     },
     "ui/composition/default_container": {
         "scope": "allsource.global",
         "version": "0.0.7",
         "mainFile": "index.js",
-        "rootDir": "main/ui/composition/default_container"
+        "rootDir": "ui/composition/default_container"
     },
     "ui/partials/button": {
         "scope": "allsource.global",
-        "version": "0.0.6",
+        "version": "0.0.13",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/button"
+        "rootDir": "ui/partials/button"
+    },
+    "ui/partials/buttons/primary_button": {
+        "scope": "allsource.global",
+        "version": "0.0.8",
+        "mainFile": "index.js",
+        "rootDir": "ui/partials/buttons/primary_button"
+    },
+    "ui/partials/buttons/secondary_button": {
+        "scope": "allsource.global",
+        "version": "0.0.7",
+        "mainFile": "index.js",
+        "rootDir": "ui/partials/buttons/secondary_button"
     },
     "ui/partials/divider": {
         "scope": "allsource.global",
         "version": "0.0.4",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/divider"
+        "rootDir": "ui/partials/divider"
+    },
+    "ui/partials/ethereum": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "ui/partials/ethereum"
+    },
+    "ui/partials/footer": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "ui/partials/footer"
     },
     "ui/partials/icons/higher_lower": {
         "scope": "allsource.global",
         "version": "0.0.8",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/icons/higher_lower"
+        "rootDir": "ui/partials/icons/higher_lower"
     },
     "ui/partials/loader": {
         "scope": "allsource.global",
         "version": "0.0.10",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/loader"
+        "rootDir": "ui/partials/loader"
     },
     "ui/partials/navbar/live": {
         "scope": "allsource.global",
-        "version": "0.0.8",
+        "version": "0.0.12",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/navbar/live"
+        "rootDir": "ui/partials/navbar/live"
     },
     "ui/partials/navbar/navbar": {
         "scope": "allsource.global",
-        "version": "0.0.11",
+        "version": "0.0.20",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/navbar/navbar"
+        "rootDir": "ui/partials/navbar/navbar"
+    },
+    "ui/partials/navbar/navbar_icon": {
+        "scope": "allsource.global",
+        "version": "0.0.2",
+        "mainFile": "navbar_icon.jsx",
+        "rootDir": "ui/partials/navbar/navbar_icon"
     },
     "ui/partials/navbar/navbarlink": {
         "scope": "allsource.global",
-        "version": "0.0.7",
+        "version": "0.0.12",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/navbar/navbarlink"
+        "rootDir": "ui/partials/navbar/navbarlink"
     },
     "ui/partials/navbar/search": {
         "scope": "allsource.global",
-        "version": "0.0.8",
+        "version": "0.0.11",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/navbar/search"
+        "rootDir": "ui/partials/navbar/search"
+    },
+    "ui/partials/navbar/usericons": {
+        "scope": "allsource.global",
+        "version": "0.0.6",
+        "mainFile": "usericons.jsx",
+        "rootDir": "ui/partials/navbar/usericons"
     },
     "ui/partials/text_loader": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
-        "rootDir": "main/ui/partials/text_loader"
+        "rootDir": "ui/partials/text_loader"
     },
     "ui/style/base": {
         "scope": "allsource.global",
         "version": "0.0.2",
         "mainFile": "index.js",
-        "rootDir": "main/ui/style/base"
+        "rootDir": "ui/style/base"
     },
     "utils/auth_user": {
         "scope": "allsource.global",
-        "version": "0.0.6",
+        "version": "0.0.11",
         "mainFile": "auth_user.js",
-        "rootDir": "main/utils/auth_user"
+        "rootDir": "utils/auth_user"
     },
     "utils/count_down_timer": {
         "scope": "allsource.global",
         "version": "0.0.3",
         "mainFile": "count_down_timer.js",
-        "rootDir": "main/utils/count_down_timer"
+        "rootDir": "utils/count_down_timer"
     },
     "utils/date_converter": {
         "scope": "allsource.global",
         "version": "0.0.3",
         "mainFile": "date_converter.js",
-        "rootDir": "main/utils/date_converter"
+        "rootDir": "utils/date_converter"
     },
     "utils/dnd_utils": {
         "scope": "allsource.global",
         "version": "0.0.3",
         "mainFile": "dnd_utils.js",
-        "rootDir": "main/utils/dnd_utils"
+        "rootDir": "utils/dnd_utils"
+    },
+    "utils/function_utils": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "function_utils.js",
+        "rootDir": "utils/function_utils"
     },
     "utils/handle_links": {
         "scope": "allsource.global",
         "version": "0.0.3",
         "mainFile": "handle_links.js",
-        "rootDir": "main/utils/handle_links"
+        "rootDir": "utils/handle_links"
     },
     "utils/juice_utils": {
         "scope": "allsource.global",
-        "version": "0.0.6",
+        "version": "0.0.9",
         "mainFile": "juice_utils.js",
-        "rootDir": "main/utils/juice_utils"
+        "rootDir": "utils/juice_utils"
     },
     "utils/node_redirect_utils": {
         "scope": "allsource.global",
-        "version": "0.0.6",
+        "version": "0.0.9",
         "mainFile": "node_redirect_utils.js",
-        "rootDir": "main/utils/node_redirect_utils"
+        "rootDir": "utils/node_redirect_utils"
+    },
+    "utils/number_utils": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "number_utils.js",
+        "rootDir": "utils/number_utils"
     },
     "utils/text_format": {
         "scope": "allsource.global",
         "version": "0.0.3",
         "mainFile": "text_format.js",
-        "rootDir": "main/utils/text_format"
+        "rootDir": "utils/text_format"
     },
     "$schema-version": "15.0.0"
 }

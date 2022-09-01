@@ -1,0 +1,41 @@
+.usericons__container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    height: 84px;
+    align-items: center;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.usericons__dropdown {
+    padding: 0px 16px;
+    position: absolute;
+    right: 0;
+    top: 85px;
+    background-color: var(--color-background-light);
+    width: 226px;
+}
+
+.button__dropdown__icon {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    margin-right: 18px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .usericons__container {
+        flex-direction: column;
+        height: auto;
+        align-items: start;
+        margin-left: 0;
+    }
+
+    .usericons__dropdown {
+        position: static;
+        width: 100%;
+        padding: 0;
+    }
+}

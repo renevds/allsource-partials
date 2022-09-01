@@ -23,7 +23,7 @@
      * scope - scope name only, e.g. 'compilation'.
      * owner - owner name in bit.dev, e.g. 'teambit'.
      **/
-    "defaultDirectory": "{scope}/{name}",
+    "defaultDirectory": "{name}",
     /**
      * default scope for all components in workspace.
      **/
@@ -39,10 +39,12 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "6.1.2",
+        "@fortawesome/react-fontawesome": "0.2.0",
         "axios": "0.27.2",
         "lzwcompress": "1.1.0",
         "moment": "2.29.4",
-        "react-router-dom": "^6.3.0",
+        "react-router-dom": "^6.3.0"
       },
       "peerDependencies": {
         "react": "^18.2.0",
