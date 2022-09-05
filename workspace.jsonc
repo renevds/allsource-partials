@@ -77,7 +77,7 @@
         }
       }
     },
-    "{ui/style/**}, {config/**}, {queries/**}, {utils/**}": {
+    "{ui/style/**}, {config/**}, {queries/**}, {utils/**}, {hooks/**}": {
       "teambit.harmony/node": {},
       "teambit.pkg/pkg": {
         "packageManagerPublishArgs": [

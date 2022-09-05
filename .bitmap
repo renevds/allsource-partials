@@ -11,7 +11,7 @@
 {
     "config/axios_instances": {
         "scope": "allsource.global",
-        "version": "0.0.11",
+        "version": "0.0.12",
         "mainFile": "index.js",
         "rootDir": "config/axios_instances"
     },
@@ -23,13 +23,13 @@
     },
     "context/projects": {
         "scope": "allsource.global",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "context/projects"
     },
     "context/user": {
         "scope": "allsource.global",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.js",
         "rootDir": "context/user"
     },
@@ -39,15 +39,21 @@
         "mainFile": "index.ts",
         "rootDir": "extensions/react-custom"
     },
+    "hooks/use_media_query": {
+        "scope": "allsource.global",
+        "version": "0.0.1",
+        "mainFile": "use_media_query.js",
+        "rootDir": "hooks/use_media_query"
+    },
     "queries/analytics_queries": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "queries/analytics_queries"
     },
     "queries/chart_queries": {
         "scope": "allsource.global",
-        "version": "0.0.10",
+        "version": "0.0.11",
         "mainFile": "index.js",
         "rootDir": "queries/chart_queries"
     },
@@ -59,7 +65,7 @@
     },
     "queries/project_queries": {
         "scope": "allsource.global",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "queries/project_queries"
     },
@@ -74,18 +80,6 @@
         "version": "0.0.13",
         "mainFile": "index.js",
         "rootDir": "ui/partials/button"
-    },
-    "ui/partials/buttons/primary_button": {
-        "scope": "allsource.global",
-        "version": "0.0.8",
-        "mainFile": "index.js",
-        "rootDir": "ui/partials/buttons/primary_button"
-    },
-    "ui/partials/buttons/secondary_button": {
-        "scope": "allsource.global",
-        "version": "0.0.7",
-        "mainFile": "index.js",
-        "rootDir": "ui/partials/buttons/secondary_button"
     },
     "ui/partials/divider": {
         "scope": "allsource.global",
@@ -107,13 +101,13 @@
     },
     "ui/partials/icons/higher_lower": {
         "scope": "allsource.global",
-        "version": "0.0.8",
+        "version": "0.0.11",
         "mainFile": "index.js",
         "rootDir": "ui/partials/icons/higher_lower"
     },
     "ui/partials/loader": {
         "scope": "allsource.global",
-        "version": "0.0.10",
+        "version": "0.0.12",
         "mainFile": "index.js",
         "rootDir": "ui/partials/loader"
     },
@@ -125,7 +119,7 @@
     },
     "ui/partials/navbar/navbar": {
         "scope": "allsource.global",
-        "version": "0.0.20",
+        "version": "0.0.23",
         "mainFile": "index.js",
         "rootDir": "ui/partials/navbar/navbar"
     },
@@ -149,7 +143,7 @@
     },
     "ui/partials/navbar/usericons": {
         "scope": "allsource.global",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "mainFile": "usericons.jsx",
         "rootDir": "ui/partials/navbar/usericons"
     },
@@ -167,7 +161,7 @@
     },
     "utils/auth_user": {
         "scope": "allsource.global",
-        "version": "0.0.11",
+        "version": "0.0.12",
         "mainFile": "auth_user.js",
         "rootDir": "utils/auth_user"
     },
@@ -203,13 +197,13 @@
     },
     "utils/juice_utils": {
         "scope": "allsource.global",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "juice_utils.js",
         "rootDir": "utils/juice_utils"
     },
     "utils/node_redirect_utils": {
         "scope": "allsource.global",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "node_redirect_utils.js",
         "rootDir": "utils/node_redirect_utils"
     },

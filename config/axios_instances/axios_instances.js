@@ -86,8 +86,10 @@ export const analyticsFetch = axios.create({
   ...getCredentials(80)
 });
 
+export const mainHost = `http://localhost:30${NID}`
+
 export const mainFetch = axios.create({
-  baseURL: `http://localhost:30${NID}`,
+  baseURL: mainHost,
   withCredentials: true,
   credentials: "include"
 })

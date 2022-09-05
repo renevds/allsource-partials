@@ -34,3 +34,15 @@ export function redirectToProject(contractAddress) {
         }
     })
 }
+
+export function redirectToLogin() {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const { data: { redir } } = await mainFetch(`/goToLogin`)
+
+            window.location.href =redir
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
