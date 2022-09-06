@@ -11,6 +11,7 @@ import {
 } from './actions.js';
 import {mainFetch} from "@allsource/config.axios_instances";
 
+console.log(mainFetch.defaults)
 
 const initialState = {
     user: null,

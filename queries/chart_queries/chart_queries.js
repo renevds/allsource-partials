@@ -2,7 +2,7 @@ import {chartDataFetch, chartDataFetchNoLZW} from "@allsource/config.axios_insta
 
 
 export function anySaleInEthForPeriodHashV(contractAddress, periodInDays, showLoans) {
-  return chartDataFetch.get('/anySaleInEthForPeriodHashV', {
+  return chartDataFetch.get('/anySaleInEthForPeriodTags', {
     params: {
       contractAddress,
       periodInDays,

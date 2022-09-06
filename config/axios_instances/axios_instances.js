@@ -7,6 +7,7 @@ import {cachedAxiosInstance} from "./utils/axiosCache";
 
 
 const isProduction = process.env.NODE_ENV !== "development";
+console.log(`This is ${isProduction ? 'production' : 'development'}`)
 
 const NID = parseInt(process.env.REACT_APP_NID);
 
@@ -86,7 +87,15 @@ export const analyticsFetch = axios.create({
   ...getCredentials(80)
 });
 
-export const mainHost = `http://localhost:30${NID}`
+const mainHosts = {
+  63: socialServerHost,
+  64: profileServerHost,
+  66: juiceFetch,
+  69: projectFetch,
+  80: isProduction ? analyticsServerHost : "http://localhost:3080",
+}
+
+export const mainHost = mainHosts[NID];
 
 export const mainFetch = axios.create({
   baseURL: mainHost,

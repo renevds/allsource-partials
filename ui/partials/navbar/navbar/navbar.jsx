@@ -15,15 +15,9 @@ import {Divider} from "@allsource/ui.partials.divider";
 import {Loader} from "@allsource/ui.partials.loader";
 import {UserIcons} from "@allsource/ui.partials.navbar.usericons";
 
-
-//Context
-import {useUserContext} from '@allsource/context.user';
-
-export const Navbar = ({children, onSearch, loginUrlFetch}) => {
+export const Navbar = ({children, onSearch, loginUrlFetch, user, getUserData}) => {
 
   const [mobileOpen, setMobileOpen] = useState(false);
-
-  const {user, getUserData} = useUserContext();
 
   const loginUser = async () => {
     window.location.href = await loginUrlFetch();

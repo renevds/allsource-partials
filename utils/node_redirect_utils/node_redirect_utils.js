@@ -46,3 +46,14 @@ export function redirectToLogin() {
         }
     })
 }
+
+export function redirectToSocial(refPage) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const { data: { redir } } = await mainFetch(`/goToSocial?`)
+            window.location.href = redir + (refPage || '')
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
